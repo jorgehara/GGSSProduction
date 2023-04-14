@@ -1,0 +1,259 @@
+.modalClass{
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+    
+}
+.modalClassAbsolute{
+  position: absolute;
+}
+.cortina{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(104, 104, 101, 0.541);
+    
+}
+.modalBodyClass{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+    position : absolute;    
+    z-index: 40;
+    color: black;
+    width: 50vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    /* background-image : url("data:image/svg+xml;utf8, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23c22031' fill%2Dopacity='1' d='M0,224L30,202.7C60,181,120,139,180,106.7C240,75,300,53,360,80C420,107,480,181,540,208C600,235,660,213,720,192C780,171,840,149,900,149.3C960,149,1020,171,1080,170.7C1140,171,1200,149,1260,138.7C1320,128,1380,128,1410,128L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z'%3E%3C/path%3E%3C/svg%3E"); */
+    
+    background-color:white;
+    color:white;
+    top: 25%;
+    left: 25%;
+    margin: 0;
+    padding : 0;
+}
+.colorBg{
+  background-color: brown;
+  color: black;
+}
+.nav-link-color{
+  display: block;
+  padding: 0.7rem;
+  background-color: brown;
+  font-size: small;
+  font-weight: 300;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  color: white;
+  border-radius: 2px;
+}
+.nav-link-color:hover{
+  background-color: brown;
+  color: white;
+}
+.nav-link-sinColor{
+  display: block;
+  padding: 0.7rem;
+  font-size: small;
+  font-weight: 300;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  color: black;
+  border-radius: 2px;
+}
+
+.nav-link-sinColor:hover{
+  background-color: brown;
+  color: white;
+}
+.titleBg{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: brown;
+  width: 100%;
+}
+.bodyBajaEmpleado{
+  color: black;
+}
+.transitionClassUp {
+  animation: transition 0.3s;
+  transition: 0.2s;
+}
+.labelModalBaja{
+  width: 9rem;
+}
+.fechaModalBaja{
+}
+.btnModalBaja{
+  margin-left: 2%;
+}
+.modalOPen{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.selectModalBaja{
+  margin-bottom: 3px;
+	width: 15rem;
+	margin-left: 0;
+	margin-right: 0px;
+	border: none;
+	height: 42px;
+	transition: .3s ease all;
+	border-bottom: 1px solid rgb(78, 6, 6);
+}
+.inputModalBaja{
+  color: black;
+  border: none;
+  pointer-events: none;
+}
+.col-form-label{
+  color: black;
+}
+.col-form-label-modal{
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  font-size: small;
+  color: black;
+}
+.inputModal{
+  padding: 0;
+  margin: 0;
+  width: 60%;
+}
+.form__grupo__label__label{
+  color: black;
+}
+.selectModal{
+    height: auto;
+    width: 100%;
+}
+.selectMenus{
+    height: 9.5rem;
+}
+.transitionClassUp{
+    animation: transition 1s;
+    transition: 0.3s;
+  position: absolute;
+
+}
+.bodyBarrios{
+  height: 100%;
+}
+.form-check-label{
+  color: black;
+  
+}
+.bodyInputs{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 50%;
+}
+.bodyInputsOptions{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 20%;
+}
+.colModal{
+  width: 100%;
+  padding: 0;
+}
+.labelModalParentesco{
+  width: 100%;
+  color: black;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.form-check{
+  width: 40%;
+}
+@keyframes transition{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+/* color del modal estandarizado a confirmar con Luis */
+.btn-danger {
+  background-color: rgb(194, 33, 50);
+  border: none;
+}
+.btn-danger:hover {
+  background-color: rgb(188, 23, 40);
+  border: none;
+}
+.btn-info{
+  --bs-btn-bg:rgba(223, 120, 105);
+  --bs-btn-border-color: rgba(223, 120, 105);
+  --bs-btn-hover-bg: rgba(223, 120, 105);
+  --bs-btn-hover-border-color: rgba(223, 120, 105);
+}
+.btn:first-child:active{
+  --bs-btn-bg:rgba(223, 120, 105);
+  --bs-btn-border-color: rgba(223, 120, 105);
+  --bs-btn-hover-bg: rgba(223, 120, 105);
+  --bs-btn-hover-border-color: rgba(223, 120, 105);
+}
+.btn:first-child:active, :not(.btn-check)+.btn:active{
+  color: #fff;
+  --bs-btn-bg:rgba(223, 120, 105);
+  --bs-btn-border-color: rgba(223, 120, 105);
+  --bs-btn-hover-bg: rgba(223, 120, 105);
+  --bs-btn-hover-border-color: rgba(223, 120, 105);
+}
+
+.btn-info {
+  color: #fff;
+  text-decoration-color: #fff;
+  background-color:  rgba(223, 120, 105);
+  border: 1px solid  rgba(223, 120, 105);
+}
+.btn-info :hover {
+  color: #fff;
+  text-decoration-color: #fff;
+  background-color:  rgba(213, 110, 95);
+  border: 1px solid  rgba(223, 120, 105);
+}
+.btn-info :active {
+  color: #fff;
+  text-decoration-color: #fff;
+  background-color:  rgba(223, 120, 105);
+  border: 1px solid  rgba(223, 120, 105);
+}
+.btn-info :focus {
+  color: #fff;
+  text-decoration-color: #fff;
+  background-color:  rgba(223, 120, 105);
+  border: 1px solid  rgba(223, 120, 105);
+}
+.btn-info ::after {
+  color: #fff;
+  text-decoration-color: #fff;
+  background-color:  rgba(223, 120, 105);
+  border: 1px solid  rgba(223, 120, 105);
+}
+.btn-info ::before {
+  color: #fff;
+  text-decoration-color: #fff;
+  background-color:  rgba(223, 120, 105);
+  border: 1px solid  rgba(223, 120, 105);
+}

@@ -1,0 +1,27 @@
+.selectMenu{
+    height: 42rem;
+    
+}
+.form__grupo__input__browser{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.form-select:focus{
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);    
+}
+.empleadoBaja{
+    color: red;
+}
+@media screen and (max-width : 1366px){
+    .selectMenu{
+        height: 32rem;
+    }
+    .form__grupo__input__browser{
+        font-size: small;
+    }
+    .form-select{
+        font-size: small;
+    }
+}

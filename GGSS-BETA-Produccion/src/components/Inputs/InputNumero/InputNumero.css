@@ -1,0 +1,83 @@
+.none{
+    display: none;
+}
+.formulario__grupo{
+	width: 100%;
+}
+.formulario__grupo2{
+	display: flex;
+	flex-flow: row;
+	justify-content: end;
+	align-items: center;
+	width: 100%;
+	z-index: 0;
+}
+.formulario__grupo__numero{
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	
+	
+}
+.formulario-label-Parentesco{
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+	margin-top: 0px;
+	margin-right: 20px;
+    margin-left: 0px;
+	margin-bottom: 0px;
+	display: block;
+}
+
+.formulario-label-ParentescoFlia{
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+	display: block;
+}
+
+.formulario-input-ParentescoFlia{
+    margin-bottom: 3px;
+	width: 165px;
+	margin-left: 0px;
+    margin-right: 0px;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 42px;
+	transition: .3s ease all;
+    border-bottom: 1px solid rgb(78, 6, 6);
+	margin-top: -5px;
+}
+.label_numeros{
+	margin: 2%;
+	
+}
+.formulario-input-Legajo-Domicilios{
+	
+	width: 100%;
+	border: none;
+	border-bottom-color: currentcolor;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+	height: 40px;
+	transition: .3s ease all;
+	border-bottom: 1px solid rgb(78, 6, 6);
+}
+@media screen and (max-width : 1366px){
+    .formulario-input-Legajo-Domicilios{
+		height: 35px;
+	}
+}
+@media screen and (max-width : 1280px){
+    .formulario-input-Legajo-Domicilios{
+		height: 35px;
+	}
+}
+@media screen and (max-width : 1280px){
+    .label_numeros{
+	}
+}

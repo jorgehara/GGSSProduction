@@ -1,0 +1,145 @@
+.formulario__grupo__inputs{
+    display: grid;
+    grid-template-areas: "nombre input icons error";
+    grid-template-columns: 0.4fr 1fr 0.1fr 1.5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+.form__grupo__label{
+    grid-area: nombre;   
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-start; 
+}
+.form__grupo__label__label{
+    margin: 0;
+    margin-left: 5px;
+    height: 100%;
+}
+.form__grupo__input{
+    grid-area: input;
+    margin: 0;
+    margin-left: 5px;
+}
+.form__grupo__icon{
+    grid-area: icons;
+    margin: 0;
+    margin-left: 5px;
+	margin-bottom: 0;
+	display: none;
+}
+.form__grupo__error{
+    grid-area: errors;
+    margin: 0;
+    margin-left: 5px;
+	margin-bottom: 0;
+	display: none;
+}
+.formulario-input-Legajo-Form-Button{
+	margin-bottom: 3px;
+	width: 15rem;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: none;
+	/* border-radius: 3px; */
+	height: 42px;
+	transition: .3s ease all;
+	border-bottom: 1px solid rgb(78, 6, 6);
+}
+.formulario-input-Legajo:focus{
+    background-image: linear-gradient(to bottom, transparent, rgb(189, 103, 103, 0.3));
+    outline: none;
+}
+.formulario__grupo-input {
+	display: block;
+	position: relative;
+	width: 300px;
+}
+.formulario__label {	
+    width: 85px;
+    margin-right: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-right: 1.2rem;
+    height: 100%;
+}
+.formulario__grupo{
+	display: flex; 
+	width: 558px;
+}
+.formulario__grupo__inputs{
+    display: grid;
+    grid-template-areas: "nombre input icons error";
+    grid-template-columns: 0.4fr 1fr 0.1fr 1.5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+.form-input-Piso{
+    margin-bottom: 3px;
+	width: 105%;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: none;
+	height: 42px;
+	transition: .3s ease all;
+	border-bottom: 1px solid rgb(78, 6, 6);
+}
+.obligatorio{
+    background-color: rgb(253, 237, 216);
+}
+@media screen and (max-width : 1366px){
+    .formulario-input-Legajo-Form-Button{
+        width: 13rem;
+        height: 35px;
+    }
+    .form-input-Piso{
+        width: 10.4rem;
+        height: 35px;
+    }
+    .form__grupo__label__label{
+        font-size: small;
+    }
+    .form__grupo__label{
+        margin: 0;
+        width: 28%;
+    }
+}
+@media screen and (max-width : 1280px){
+    .formulario-input-Legajo-Form-Button{
+        width: 12rem;
+        height: 32px;
+    }
+    .form-input-Piso{
+        width: 8.7rem;
+        height: 35px;
+    }
+    .form__grupo__label__label{
+        font-size: small;
+    }
+    .form__grupo__label{
+        margin: 0;
+        width: 29%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .formulario-input-Legajo-Form-Button{
+        width: 10rem;
+        height: 32px;
+    }
+    .form-input-Piso{
+        width: 6rem;
+        height: 35px;
+    }
+    .form__grupo__label__label{
+        font-size: small;
+    }
+    .form__grupo__label{
+        margin: 0;
+        width: 17%;
+    }
+}

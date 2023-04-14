@@ -1,0 +1,26 @@
+.loader-container {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente para oscurecer el contenido detrás del loader */
+  }
+  
+  .loader {
+    border: 16px solid #111111; /* El spinner consiste en un círculo con un borde gris */
+    border-top: 16px solid rgb(97, 10, 18); /* Agregamos un borde bordó al spinner */
+    border-radius: 50%; /* Hacemos el borde redondeado para que parezca un círculo */
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite; /* Animación para rotar el spinner de forma continua */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

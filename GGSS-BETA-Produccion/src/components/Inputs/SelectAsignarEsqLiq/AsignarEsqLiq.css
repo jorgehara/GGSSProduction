@@ -1,0 +1,33 @@
+.form-label-EsqLiq{
+
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+	margin-top: 0px;
+	margin-right: 10px;
+    margin-left: 0px;
+	margin-bottom: 0px;
+	display: block;
+}
+
+.selectFormEsqLiq{
+	margin-left: 100%;
+    margin-top: 15%;
+	width: 327%;
+}
+
+.radio-Fijar-EsqLiq{
+	position: absolute;
+	margin-left: 5%;
+}
+
+.inputCheckEsqLiq{
+	position: absolute;
+	left: 9%;
+    margin-top:14%;
+}
+
+/* .labelFijarEsqLiq{
+	position: relative;
+	left: 94%;
+} */

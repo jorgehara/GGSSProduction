@@ -1,0 +1,9 @@
+.btnAgregar{
+    width: 8rem;
+}
+
+@media screen and (max-width:1366px){
+    .contenedorFieldSet{
+        font-size: small;
+    }
+}

@@ -1,0 +1,29 @@
+.acordeonOption{
+    text-decoration: none;
+}
+.tituloAcordeon{
+    display: flex;
+    width: 100%;
+}
+.accordion-button{
+    color: #c22031;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+.accordion-button::after{
+    position: absolute;
+    top: 1rem;
+    color: #c22031;
+}
+.accordion-button:focus{
+    border: 1px solid #c22031;
+    box-shadow: 0;
+}
+.accordion-button:not(.collapsed){
+    color: #c22031;
+    background-color: rgba(220, 53, 70, 0.24);
+}

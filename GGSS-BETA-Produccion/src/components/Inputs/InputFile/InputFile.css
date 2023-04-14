@@ -1,0 +1,43 @@
+.div_conteiner {
+}
+.img__drop{
+    /* display: block; */
+    width: 230px;
+    /* border: 4px dashed #d0d7de; */
+}
+.file-upload-input {
+    position: absolute;
+    margin-right: 0px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    border: 4px dashed #d0d7de;
+    cursor: pointer;
+    max-width: 9.375rem;
+    width: 9.375rem;
+    max-height: 9.375rem;
+    height: 9.375rem;
+}
+.image-upload-wrap:hover {
+    background-color: transparent;
+}
+.imageSelect{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 9.375rem;
+    width: 9.375rem;
+    max-height: 9.375rem;
+    height: 9.375rem;
+}
+.imagenFile{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 9.375rem;
+    width: 9.375rem;
+    max-height: 9.375rem;
+    height: 9.375rem;
+}

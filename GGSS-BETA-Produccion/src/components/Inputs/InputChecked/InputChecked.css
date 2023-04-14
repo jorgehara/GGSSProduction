@@ -1,0 +1,56 @@
+.input__formFlia{
+    /* width: 15rem; */
+	
+}
+.formulario-input-Familia{
+    margin-bottom: 3px;
+	/* width: 200px; */
+	margin-left: 0px;
+    /* margin-right: 29px; */
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 42px;
+	transition: .3s ease all;
+    border-bottom: 1px solid rgb(78, 6, 6);
+	width : 29.5rem;
+}
+
+.FijarNombFlia{
+	margin-top: 0px;
+    margin-left: 10%;
+}
+
+.form__labelFlia{
+	width: 10rem;
+	display: block;
+	font-weight: 400;
+    /* width: 85px; */
+    /* margin-right: 20px; */
+}
+.obligatorio{
+	background-color: rgb(253, 237, 216);
+}
+@media screen and (max-width : 1366px){
+	.formulario-input-Familia{
+		width: 29.5rem;
+	}
+}
+@media screen and (max-width : 1280px){
+	.formulario-input-Familia{
+		width: 29.5rem;
+	}
+}
+@media screen and (max-width : 1200px){
+	.formulario-input-Familia{
+		width: 13.3rem;
+	}
+}
+@media screen and (max-width : 1024px){
+	.formulario-input-Familia{
+		width: 19rem;
+	}
+	.form__labelFlia{
+		width: 8rem;
+	}
+}

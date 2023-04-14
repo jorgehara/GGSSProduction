@@ -1,0 +1,63 @@
+.none{
+    display: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formulario-input-Date{
+	width: 89px;
+	text-align: start;
+	margin-left: 22px;
+    margin-right: 0px;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	/* height: 36px; */
+	transition: .3s ease all;
+    /* border-bottom: 1px solid rgb(78, 6, 6); */
+}
+.check-label{
+	
+}
+.formulario__grupo__inputs__docs{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 1%;
+}
+.form-check-label{
+	width: 15rem;
+	
+}
+.secondCheck2{
+	margin-left: 2%;
+	width: 8.2rem;
+	
+}
+.secondCheck{
+	/* margin-left: 14.8%; */
+	width: 61%;
+	box-sizing: border-box;
+	margin-left: 15%;
+	padding: 0%;
+	
+
+}
+
+.secondCheckDocs{
+	margin-left: 6.5%;
+	width: 8.5rem;
+}
+@media screen and (max-width:1366px){
+	.contenedorInputDoc{
+		font-size: small;
+	}
+	.secondCheck2{
+		font-size: small;
+		width: 7.9rem;
+	}
+}

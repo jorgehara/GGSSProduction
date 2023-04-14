@@ -1,0 +1,106 @@
+.none{
+    display: none;
+}
+
+.formulario-label-Parentesco{
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+	margin-top: 0px;
+	margin-right: 20px;
+    margin-left: 0px;
+	margin-bottom: 0px;
+	display: block;
+}
+
+.form-label-ParentsFlia{
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+	margin-top: 0px;
+	/* margin-right: 20%; */
+    margin-left: 0px;
+	margin-bottom: 0px;
+	display: block;
+}
+
+.form-input-ParentsFlia{
+    margin-bottom: 3px;
+	width: 13rem;
+	margin-left: 4.3rem;
+    margin-right: 0.2rem;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 42px;
+	transition: .3s ease all;
+    border-bottom: 1px solid rgb(78, 6, 6);
+	/* margin-top: -5px; */
+}
+
+.form-inputs-radioFijar{
+	position: absolute;
+	margin-left:  24.2rem;
+}
+
+.btn-modal-miau{
+	
+}
+.label_FijarParents{
+	position: relative;
+}
+.input-parentesco{
+	position: absolute;
+	right: 110%;
+}
+.obligatorio{
+	background-color: rgb(253, 237, 216);
+}
+@media screen and (min-width : 1920px) and (min-height: 1080px){
+	.form-input-ParentsFlia{
+		margin-bottom: 3px;
+		width: 13rem;
+		margin-left: 4rem;
+		margin-right: 0px;
+		background: #fff;
+		border: 3px solid transparent;
+		border-radius: 3px;
+		height: 42px;
+		transition: .3s ease all;
+		border-bottom: 1px solid rgb(78, 6, 6);
+		/* margin-top: -5px; */
+	}
+	
+}
+@media screen and (min-width : 1813px){
+	.form-input-ParentsFlia{
+		margin-left: 4.4rem;
+		height: 42px;
+	}
+}
+@media screen and (max-width : 1766px){
+	.form-input-ParentsFlia{
+		margin-left: 5rem;
+		height: 42px;
+	}
+}
+@media screen and (max-width : 1566px){
+	.form-input-ParentsFlia{
+		margin-left: 5rem;
+		height: 42px;
+		height: 42px;
+	}
+}
+@media screen and (max-width : 1366px){
+	.form-input-ParentsFlia{
+		margin-left: 6rem;
+		height: 42px;
+	}
+}
+@media screen and (max-width : 1024px){
+	.form-input-ParentsFlia{
+		margin-left: 4rem;
+		width: 9.4rem;
+		height: 35px;
+	}
+}

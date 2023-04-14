@@ -1,0 +1,78 @@
+.none{
+    display: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-input-DateFlia2{
+	text-align: start;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	transition: .3s ease all;
+}
+.form-input-DateFlia2{
+	text-align: start;
+	margin-left: 2.3rem;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	transition: .3s ease all;
+}
+.formulario__grupo__DateFlia{
+	display: grid;
+    grid-template-areas: "nombre input icons error";
+    grid-template-columns: 0.4fr 1fr 0.1fr 1.5fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+.dateFlia{
+	position: absolute;
+	top: 30%;
+    left: 40%;
+}
+.formularioDate{
+	margin-left: 0.1%;
+}
+.inputDate2{
+	margin-left: 2.4rem; 
+}
+.inputDateBaja{
+	margin-left: 1rem;
+}
+.datebajaFliaCheck{
+	margin-top: 0px;
+    margin-left: 12%;
+}
+.formulario__grupo{
+	position: relative;
+}
+@media screen and (max-width: 1366px){
+	
+	.inputDate2{
+		margin-left: 3.5rem;
+	}
+}
+@media screen and (max-width: 1280px){
+	
+	.inputDate2{
+		margin-left: 3.5rem;
+	}
+}
+@media screen and (max-width: 1024px){
+	
+	.inputDate2{
+		margin-left: 1.5rem;
+		width: 9.3rem;
+	}
+	.labelBajaFlia{
+		margin-left: 2.5rem;
+		width: 5rem;
+	}
+	.inputDateBaja{
+		margin-left: 4rem;
+	}
+}

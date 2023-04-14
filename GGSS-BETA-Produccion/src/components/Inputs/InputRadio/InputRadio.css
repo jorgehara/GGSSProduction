@@ -1,0 +1,83 @@
+.formulario__grupo__inputs__radio{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+	height: 42px;
+	margin-top: 0.1rem;
+}
+.formulario-label-Sexo{
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+	margin-top: 0px;
+	margin-right: 68px;
+    margin-left: 0px;
+	margin-bottom: 0px;
+	display: block;
+	
+}
+.formulario-input-Sexo{
+	padding: 0;
+	width: 89px;
+	text-align: start;
+	/* margin-left: 48px; */
+    /* margin-right: 0px; */
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	 height: 36px;
+	transition: .3s ease all;
+	
+    /* border-bottom: 1px solid rgb(78, 6, 6); */
+}
+.formulario-input-SexoF{
+	padding: 0;
+	width: 89px;
+	text-align: start;
+	margin-left: 8px;
+    margin-right: 0px;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 36px; 
+	transition: .3s ease all;
+    /* border-bottom: 1px solid rgb(78, 6, 6); */
+}
+.formulario__grupo__inputs__radio_AsidePagos{
+	font-size: 0.8rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.formulario-input-Sexo-AsidePagos{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 10rem;
+	gap: 2%;
+	text-align: start;
+	background: #fff;
+	border-radius: 3px;
+	transition: .3s ease all;
+	margin-left: 1.6rem;
+}
+@media screen and (max-width : 1366px){
+    .formulario__grupo__inputs__radio_AsidePagos{
+        flex-flow: row nowrap;
+		height: 35px;
+    }
+	.formulario__grupo__inputs__radio{
+		height: 35px;
+	}
+}
+@media screen and (max-width : 1280px){
+	.formulario-input-SexoF{
+		margin: 0;
+	}
+	.formulario__grupo__inputs__radio{
+		height: 35px;
+	}
+}

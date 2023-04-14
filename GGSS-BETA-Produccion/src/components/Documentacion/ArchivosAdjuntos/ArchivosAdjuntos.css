@@ -1,0 +1,27 @@
+.modalBodyClass{
+    padding: 0;
+}
+.titleModalClass{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: brown;
+}
+.rowModalDocu{
+color: black;
+}
+.imagenAdjunta{
+  position: absolute;
+  z-index: 9999;
+    display: inline-block;
+    width: 100%;
+    
+}
+.labelInputFile{
+  position: absolute;
+}
+.inputFile{
+  width: 5.5rem;
+}
+.labelforinput{
+  background-color: white;
+}

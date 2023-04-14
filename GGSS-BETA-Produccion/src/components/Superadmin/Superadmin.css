@@ -1,0 +1,27 @@
+.inputAnchoAlto{
+    width: 5rem;
+    margin: 1%;
+}
+.labelDiasConotrato{
+    width: 5rem;
+    margin: 0;
+    padding: 0;
+}
+.inputDiasConotrato{
+    width: 3rem;
+    margin: 0;
+    padding: 0;
+}
+.labelAdjuntos{
+    width: 10rem;
+}
+.contenedorSuperadmin{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+}
+.fieldSetSuper{
+    width: 100%;
+}

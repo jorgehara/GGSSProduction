@@ -1,0 +1,19 @@
+.imgData{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+@media screen and (max-width : 1366px){
+    .imgData{
+        width: 70px;
+        height: 70px;
+    }
+    .container-flex{
+        font-size: small;
+        padding: 0;
+        margin: 0;
+        padding-left: 0.5rem;
+    }
+}

@@ -1,0 +1,129 @@
+.formulario__grupo__inputs2{
+    display: grid;
+    grid-template-areas: "nombres primero segundo iconss errors";
+    grid-template-columns: 0.6fr 0.5fr 0.9fr 0.1fr 2.7fr;
+    grid-template-rows: 1fr;
+    margin-top: 2%;
+}
+.form__grupo__labels{
+    grid-area: nombres;   
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-start; 
+}
+.form__grupo__label__label{
+    margin: 0;
+    margin-left: 5px;
+    height: 100%;
+}
+.form__grupo__input1{
+    grid-area: primero;
+    /* margin: 0; */
+    /* margin-left: 5px; */
+}
+.form__grupo__input2{
+    grid-area: segundo;
+    margin: 0;
+}
+.form__input{
+    width: 100%;
+    
+}
+.form__grupo__icons{
+    grid-area: icons;
+    margin: 0;
+    margin-left: 10px;
+}
+.form__grupo__errors{
+    grid-area: error;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.formulario__grupo{
+	display: flex; 
+	width: 558px;
+}
+.formulario-label-DNI{
+	font-style: normal;
+	font-weight: 400;
+	color: black;
+	/* margin-top: 0px;
+	margin-right: 0px;
+    margin-left: 0px;
+	margin-bottom: 0px; */
+	display: block;
+    
+}
+.formulario-input-DNI:focus{
+    /* background-image: linear-gradient(to bottom, transparent, rgb(189, 103, 103, 0.3)); */
+
+}
+
+
+:focus-visible {
+    /* outline: 1px solid #bb2929 ;
+    border-radius: 3px;} */
+}    
+.formulario-input-DNI:hover{
+    border-color:  #bb2929;
+}
+.form-select:focus{
+    /* border-color:  #bb2929 !important; */
+	/* width: 61px; */
+	/* margin-left: 78px; */
+	/* height: 38px; */
+	/* margin-top: 25px; */
+    /* margin-right: 5px; */
+    /* outline: none !important; */
+}
+.formulario-input-DNI{
+	width: 7.5rem;
+	text-align: start;
+	
+    /* margin-right: 0px; */
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 36px;
+	transition: .3s ease all;
+    border-bottom: 1px solid rgb(78, 6, 6);
+    height: 42px;
+    margin: 0;
+    padding: 0;
+}
+/* input:focus, select:focus, select, .form-select, input.form-control:focus {
+
+    outline:none !important;
+
+    outline-width: 0 !important;
+
+    box-shadow: none;
+
+    -moz-box-shadow: none;
+
+    -webkit-box-shadow: none;
+
+} */
+@media screen and (max-width : 1366px){
+    .formulario-input-DNI{
+        width: 6.5rem;
+        height: 35px;
+    }
+    
+}
+@media screen and (max-width : 1280px){
+    .formulario-input-DNI{
+        width: 6rem;
+        height: 35px;
+    }
+    
+}
+@media screen and (max-width : 1024px){
+    .formulario-input-DNI{
+        width: 5rem;
+        height: 35px;
+    }
+    
+}

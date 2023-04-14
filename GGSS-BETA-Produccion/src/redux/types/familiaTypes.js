@@ -1,0 +1,8 @@
+export const ADD_FAMILIA = "ADD_FAMILIA";
+export const ADD_FAMILIAR_ID = "ADD_FAMILIAR_ID";
+export const ADD_FAMILIAR = "ADD_FAMILIAR";
+export const DELETE_FAM = "DELETE_FAM"
+
+export const DATOS_FAMILIAR_X_EMPLEADO = "DATOS_FAMILIAR_X_EMPLEADO"
+export const SAVE_ID_FAM = "SAVE_ID_FAM"
+export const CLEAN_ID_FAM = "CLEAN_ID_FAM"

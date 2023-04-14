@@ -1,0 +1,44 @@
+.formulario__label-Cuil{
+    /* display: block;
+    font-weight: 400;
+    /* width: 30%; */
+    /* width: 85px; */
+    /* margin-right: 20px;  */
+}
+
+.formulario__grupo__inputs{
+    /* display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center; */
+}
+.form__grupo__icons{
+    margin-left: 0.7rem;
+}
+.formulario-input-Legajo-cuil{
+    width: 9.6rem;
+	height: 2.5rem;
+	border: none;
+	transition: .3s ease all;
+	border-radius: 0;
+	border-bottom: 1px solid rgb(78, 6, 6);
+}
+
+@media screen and (max-width : 1366px){
+    .formulario-input-Legajo-cuil{
+        width: 7.6rem;
+        height: 35px;
+    }
+}
+@media screen and (max-width : 1280px){
+    .formulario-input-Legajo-cuil{
+        width: 6.5rem;
+        height: 35px;
+    }
+}
+@media screen and (max-width : 1024px){
+    .formulario-input-Legajo-cuil{
+        width: 4.8rem;
+        height: 35px;
+    }
+}

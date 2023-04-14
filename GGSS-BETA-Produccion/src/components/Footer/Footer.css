@@ -1,0 +1,26 @@
+.newClass{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    height:63%;
+    --bs-btn-padding-y: .25rem; 
+    --bs-btn-padding-x: .5rem; 
+    --bs-btn-font-size: .75rem;
+}
+
+.salirExit{
+    width: 34.2%;
+    margin-left: 4%;
+}
+
+.buttonExit{
+    height: 135%;
+
+
+}
+@media screen and (max-width: 1366px){
+    .contFooter{
+        font-size: small;
+    }
+}

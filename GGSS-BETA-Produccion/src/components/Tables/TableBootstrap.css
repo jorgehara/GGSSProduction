@@ -1,0 +1,39 @@
+/* .tableHeader{
+    background-image: linear-gradient(to right, rgb(148, 28, 28), rgb(99, 11, 11));
+} */
+
+table.table-fit {
+    width: auto !important;
+    table-layout: auto !important;
+}
+table.table-fit thead th, table.table-fit tfoot th {
+    width: auto !important;
+}
+table.table-fit tbody td, table.table-fit tfoot td {
+    width: auto !important;
+}
+
+.rowTAbles{
+    height: auto;
+     max-height: 10rem; 
+     font-size: small;
+}
+.DeCeldas{
+    width: 550%;
+
+}
+.btnAgregar{
+    width: 10%;
+}
+.nameColums{
+    width: auto;
+    font-weight: 500;
+    /* padding: 0rem 6rem 0rem 1rem; */
+    
+}
+
+@media screen and (max-width : 1366px){
+    .contDocumentacion{
+        font-size: small;
+    }
+}

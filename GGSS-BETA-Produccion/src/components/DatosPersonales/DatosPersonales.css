@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario__grupo{
+	display: flex;
+	width: 100%;
+}
+.mainABMTitle {
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 350px;
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #a61f34;
+	font-weight: bold;
+}
+.form__datos__personales{
+    display: grid;
+    grid-template-areas: "col1 col2 col3";
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-rows: 1fr;
+}
+.primera__columna{
+    grid-area: col1;
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    align-items: flex-start;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.segunda_columna{
+    grid-area: col2;
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+.tercera_columna{
+    grid-area: col3;
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    align-items: flex-start;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.accordion-button::after{
+    margin-left: 92%;
+}
+.form-control:focus {
+    box-shadow: none !important;
+  }
+.form-select:focus{
+    outline: none !important;
+    box-shadow: none;
+    border-color: #bb2929 !important;
+}
+.select {
+    background: #333333;
+ }
+.acordion:focus{
+    outline: none !important;
+    box-shadow: none;
+    border-color: #bb2929 !important;
+}
+
+
+.select option[selected]{
+    background-color: #bb2929;
+}
+.Lateral-Derecho{
+}
+
+.accordion-body{
+    
+    height: 29.8rem;
+    max-height: 29.8rem;
+    overflow: auto;
+
+}
+
+@media screen and (max-width : 1366px){
+    .colImagen{
+        margin-left: 2rem;
+    }
+    .accordion-body{
+        height: 22.8rem;
+        max-height: 22.8rem;
+    }
+    .accordion{
+        font-size: small;
+    }
+    .accordion-button{
+        font-size: small;
+        padding: 0;
+        padding: 0.5rem 0 .5rem 0.2rem;
+    }
+    .accordion-body{
+        padding : 0 2rem 0 2rem;
+    }
+    
+}

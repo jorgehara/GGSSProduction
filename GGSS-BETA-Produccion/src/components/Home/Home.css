@@ -1,0 +1,13 @@
+.lateralDerecho{
+    height: 30% !important;
+}
+.btnSize{
+    width: 5%;
+}
+
+
+@media screen and (max-width: 1366px){
+    .btnEmpl{
+        font-size: small;
+    }
+}
